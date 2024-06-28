@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 24px 14px 12px;
+    border-bottom: 1px solid #DCDFE3;
+    align-items: center;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.right-part-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    align-items: center;
+}
+
+header input {
+    font: 400 14px Noto Sans;
+    text-align: left;
+    color: #C3C7CE;
+    padding: 8px 224px 8px 12px;
+    border: 1px solid #DCDFE3;
+    border-radius: 4px;
+}
+
+.right-part-footer p {
+    font: 400 14px Noto Sans;
+    text-align: left;
+    color: #3B3E45;
+
+}
+
+.icons {
+    width: 22px;
+    height: 22px;
+}
+
+.daily {
+    padding: 32px 24px 0 24px;
+}
+
+.daily .wrapper {
+    display: flex;
+    padding-top: 24px;
+    justify-content: space-between;
+}
+
+.daily .wrapper .left-part-daily {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.daily .wrapper .right-part-daily {
+    display: flex;
+    gap: 8px;
+}
+
+.daily .wrapper .left-part-daily button {
+    border: 1px solid #DCDFE3;
+    border-radius: 5px;
+    padding: 8px 11px 5px 11px;
+    background-color: white;
+}
+
+.daily h2 {
+    font: 600 24px Noto Sans;
+    text-align: left;
+}
+
+.daily .wrapper .left-part-daily .np {
+    display: flex;
+    gap: 4px;
+}
+
+.daily .wrapper .left-part-daily .np :nth-child(1) {
+    font: 600 14px Noto Sans;
+    text-align: left;
+    color: #3B3E45;
+
+}
+
+.daily .wrapper .left-part-daily .np :nth-child(2) {
+    font: 400 14px Noto Sans;
+    text-align: left;
+    color: #666E7D;
+}
+
+.daily .wrapper .right-part-daily button {
+    font: 400 14px Noto Sans;
+    text-align: left;
+    padding: 8px 12px;
+    background-color: white;
+}
+
+.daily .wrapper .right-part-daily :nth-child(1) {
+    border: 1px solid #DCDFE3;
+    border-radius: 5px;
+    font: 400 14px Noto Sans;
+    text-align: left;
+    color: #3B3E45;
+
+}
+
+.daily .wrapper .right-part-daily :nth-child(2) {
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: #1660D0;
+    color: #fff;
+}
+
+.daily .info {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #DCDFE3;
+    border-radius: 5px;
+    background: #F8F9FA;
+    padding: 16px 24px;
+    margin-top: 24px;
+}
+
+.daily .left-part-info {
+    display: flex;
+    gap: 24px;
+}
+
+.daily .left-part-info .name {
+    display: flex;
+    gap: 4px;
+}
+
+.daily .left-part-info p {
+    font: 400 14px Noto Sans;
+    text-align: left;
+    color: #666E7D;
+}
+
+.daily .left-part-info .name :nth-child(2) {
+    font: 600 14px Noto Sans;
+    color: #3B3E45;
+}
+
+.right-part-info p {
+    font: 400 14px Noto Sans;
+    text-align: left;
+    color: #4155C8;
+}
+
+.table {
+    display: grid;
+    padding: 24px 24px 0 24px;
+    justify-content: start;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.table div {
+    padding: 16px 0 18px 16px;
+    border-bottom: 1px solid #DCDFE3;
+    font: 400 14px Noto Sans;
+    text-align: left;
+    color: #3B3E45;
+}
+
+.table div:nth-child(-n+5) {
+    font-weight: 400;
+    line-height: 16px;
+    color: #666E7D;
+}
+
+.table div:nth-child(5n+10) {
+    color: #4155C8;
+}
+
+.table p {
+    display: inline;
+    border-radius: 5px;
+    padding: 2px 8px 4px 8px;
+}
+.table div:nth-of-type(9) p {
+    background: #12BDB21C;
+}
+
+.table div:nth-of-type(14) p ,  :nth-of-type(19) p  {
+    background: #8239BC1C;
+}
+
+.table div:nth-of-type(24) p ,  :nth-of-type(34) p  {
+    background: #54A0CA1C;
+}
+
+.table div:nth-of-type(29) p {
+    background: #BFC4C626;
+}
+.table div:nth-of-type(39) p {
+    background: #FBB50021;
+}
+
+
